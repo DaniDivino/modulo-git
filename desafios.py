@@ -14,8 +14,8 @@ Boa sorte e bons commits! 🚀
 """
 
 def mostrar_mensagem_inicial():
-    
-     return "Bem-vindo ao Desafio de Git!"
+      
+     return "Bem-vindo ao Desafio de Git/ GitHub!"
     
     
 
