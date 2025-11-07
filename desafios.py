@@ -22,13 +22,21 @@ def mostrar_mensagem_inicial():
 def listar_comandos_git_basicos():
     
     return ["git init", "git add", "git commit", "git status", "git push"]
+<<<<<<< HEAD
+=======
+    
+    
+>>>>>>> QuintaBranch
 
 
 def criar_mensagem_commit(funcao_nome):
     
     return f"Implementa função {funcao_nome}"
+<<<<<<< HEAD
     
     return f"Implementa função {funcao_nome}"
+=======
+>>>>>>> QuintaBranch
 
 
 def verificar_tag_valida(tag):
@@ -38,13 +46,9 @@ def verificar_tag_valida(tag):
 
 
 def gerar_relatorio_final(funcoes_concluidas):
-    """
-    Recebe uma lista com os nomes das funções implementadas
-    e retorna uma mensagem final do desafio.
 
-    Exemplo:
-    gerar_relatorio_final(["mostrar_mensagem_inicial", "listar_comandos_git_basicos"])
-    ->
-    "Desafio concluído! 2 funções implementadas com sucesso."
-    """
-    pass
+    
+    total_concluidas = len(funcoes_concluidas)
+    
+    
+    return f"Desafio concluído! {total_concluidas} funções implementadas com sucesso."
